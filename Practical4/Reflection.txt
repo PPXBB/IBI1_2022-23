@@ -1,0 +1,4 @@
+I learned a lot about git and github operations today. 
+But I feel that the guidance of the practical is not clear enough, 
+which gives me a lot of confusion.
+Anyway, I still like this pratical very much.
