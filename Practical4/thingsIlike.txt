@@ -1,6 +1,19 @@
-I like getting GitHub to work
 I like music
-I like pork pies
-I like crisps
-I like tea very much
-I like Radio 4
+I like very much singing
+I like coding
+I like dog
+I like cat
+I like coco
+<<<<<<< HEAD
+I like fish
+I like bird
+I like apple
+I like banana
+=======
+I like bear
+I like yellow
+I like blue
+I like red
+I like milk
+I don't like tea
+>>>>>>> wyf
