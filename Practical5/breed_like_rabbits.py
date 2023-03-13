@@ -1,7 +1,6 @@
 # Plan:
 # Initialize the number of rabbits to 2
 # Initialize the generation counter to 1
-# Initialize the total number of rabbits born to 2
 # Use a while loop to simulate rabbit breeding until the total number of rabbits exceeds 100
 # In each iteration of the loop, double the number of rabbits and increment the generation counter
 # Print a message stating the generation at which the total number of rabbits exceeds 100
