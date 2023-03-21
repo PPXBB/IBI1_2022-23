@@ -1,3 +1,15 @@
+# Plan:
+# Declare a dictionary called "movie" with movie genres and the number of students who watched each genre.
+# Create a list called "movie_genres" containing the keys of the "movie" dictionary.
+# Create a list called "students_number" containing the values of the "movie" dictionary.
+# Print the "movie" dictionary to the console.
+# Import the matplotlib library to create a pie chart and plot it.
+# Plot a pie chart using "students_number" as the data, "movie_genres" as the labels and display the percentage using the "autopct" argument.
+# Display the pie chart on the screen.
+# Ask the user to input a movie genre.
+# Print the value in the "movie" dictionary that corresponds to the user input key to the console.
+
+
 # Declare a dictionary called "movie" with movie genres and the number of students who watched each genre.
 movie={"Comedy": 73, "Action": 42, "Romance":38, "Fantasy": 28, "Science-fiction": 22,
        "Horror": 19, "Crime": 18, "Documentary": 12, "History": 8, "War": 7}
