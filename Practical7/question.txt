@@ -1,0 +1,8 @@
+Are there places in the World where there have been more than 10,000 total infections(as of 31 March)?
+If so, where are they?
+
+The answer starts at line 73 of the code
+
+We can find that most of the countries with more than 10,000 cases are developed countries.
+This may be due to the greater mobility of the population in developed countries and
+the fact that they have the capacity to carry out large-scale nucleic acid testing.
