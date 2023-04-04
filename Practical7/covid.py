@@ -58,7 +58,7 @@ plt.show()
 plt.boxplot(new_data.loc[:,"new_deaths"])
 plt.title("new deaths of different countries on 31 March 2020")
 plt.show()
-# Creating a line chart that shows the new cases and new deaths across the world over time.
+# Creating a plot chart that shows the new cases and new deaths across the world over time.
 world_dates = world_data.loc[:,"date"]
 world_new_cases = world_data.loc[:,"new_cases"]
 world_new_deaths = world_data.loc[:,"new_deaths"]
