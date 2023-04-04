@@ -11,7 +11,7 @@ covid_data.head()
 covid_data.info()
 covid_data.describe()
 # Using Pandas' iloc[] method to subset the data by selecting every 100th row for the second column.
-covid_data.iloc[0:999:100,1]
+covid_data.iloc[0:1000:100,1]
 covid_data.loc[0:81,"total_cases"]
 # Creating a boolean list for the location "Afghanistan" using a for loop, and
 # then using the boolean list to extract the total cases for Afghanistan using Pandas' loc[] method.
