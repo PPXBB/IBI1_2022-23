@@ -16,6 +16,7 @@ class GOHandler(xml.sax.ContentHandler):
         self.sheet["B1"] = "Term Name"
         self.sheet["C1"] = "Definition"
         self.sheet["D1"] = "Child Node Count"
+        self.visited = set()
 
     def startElement(self, name, attrs):
         self.current_element = name
@@ -45,11 +46,17 @@ class GOHandler(xml.sax.ContentHandler):
             self.go_parents.setdefault(parent_id, []).append(self.go_id)
 
     def get_child_node_count(self, go_id):
+        #Prune the recursion if the node is visited before
+        if go_id in self.visited:
+            return 0
+        self.visited.add(go_id)
         if go_id not in self.go_parents:
             return 0
         count = len(self.go_parents[go_id])
         for parent_id in self.go_parents[go_id]:
             count += self.get_child_node_count(parent_id)
+        #Remove the current node from visited set when recursion exits
+        self.visited.remove(go_id)
         return count
 
     def write_excel_file(self, filename):
